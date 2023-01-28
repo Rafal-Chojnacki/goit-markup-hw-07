@@ -1,4 +1,4 @@
 function toggle_submit(el) {
 	let disabled = el.checked ? undefined : 'true'
-	document.getElementById('btn-accept').disabled = disabled
+	document.getElementById('modal-window__btnAccept').disabled = disabled
 }
