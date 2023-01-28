@@ -17,37 +17,38 @@
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <header>
-        <div class="container-header">
-            <div class="logo-header"><a class="link-header" href="index.html" title="WebStudio">
-                    <span class="logo1">Web</span><span class="logo2header">Studio</span></a>
+        <div class="header">
+            <div class="header__logo"><a class="header__link" href="index.html" title="WebStudio">
+                    <span class="logo">Web</span><span class="logo logo--header">Studio</span></a>
                 <nav class="header-nav">
                     <div class="header-nav-subpages">
                         <ul class="ul">
-                            <li class="li-header">
-                                <a class="link-header" href="index.html" title="WebStudio">Agencja</a>
+                            <li class="header-nav-subpages__li">
+                                <a class="header__link" href="index.html" title="WebStudio">Agencja</a>
                                 <div class="link-underline"></div>
                             </li>
-                            <li class="li-header">
-                                <a class="link-active" href="portfolio.html" title="Portfolio WebStudio">Portfolio</a>
+                            <li class="header-nav-subpages__li">
+                                <a class="header__link--active" href="portfolio.html" title="Portfolio WebStudio">Portfolio</a>
+                                <div class="link-underline"></div>
                             </li>
-                            <li class="li-header">
-                                <a class="link-header" href="kontakt.html" title="Kontakt">Kontakt</a>
+                            <li class="header-nav-subpages__li">
+                                <a class="header__link" href="kontakt.html" title="Kontakt">Kontakt</a>
                                 <div class="link-underline"></div>
                             </li>
                         </ul>
                     </div>
                     <div class="header-nav-contact">
-                        <ul class="ul-header-nav-contact">
-                            <li class="li-header-nav-contact">
-                                <a class="link-header" href="mailto:info@devstudio.com"><svg id="icon-envelope">
+                        <ul class="ul ul--header-nav-contact">
+                            <li class="header-nav-contact__li">
+                                <a class="header__link" href="mailto:info@devstudio.com"><svg
+                                        id="header__icon-envelope">
                                         <use href="./images/icons.svg#icon-envelope"></use>
                                     </svg>info@devstudio.com</a>
                             </li>
-                            <li class="li-header-nav-contact">
-                                <a class="link-header" href="tel:+48111111"><svg id="icon-smartphone">
+                            <li class="header-nav-contact__li">
+                                <a class="header__link" href="tel:+48111111"><svg id="header__icon-smartphone">
                                         <use href="./images/icons.svg#icon-smartphone"></use>
                                     </svg>+48 111 111 111</a>
                             </li>
@@ -233,68 +234,68 @@
             </ul>
         </div>
     </main>
-    <footer class="footer-all">
-        <div class="container-footer-left">
-            <div class="logo-footer"><a class="link-footer" href="index.html" title="WebStudio"><span
-                        class="logo1">Web</span><span class="logo2footer">Studio</span></a>
+    <footer class="footer">
+        <div class="footer-leftPart">
+            <div class="logo"><a class="footer-leftPart__link" href="index.html" title="WebStudio"><span
+                        class="logo">Web</span><span class="logo--footer">Studio</span></a>
             </div>
-            <address class="address-all">m. Warszawa, Aleje Jerozolimskie 21</address>
-            <div id="link-mail-footer"><a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <address class="footer-leftPart__address">m. Warszawa, Aleje Jerozolimskie 21</address>
+            <div class="footer-leftPart__linkMail"><a class="footer-leftPart__link"
+                    href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
-            <div id="link-phone-footer"><a class="link-footer" href="tel:+48111111">+48 111 111 111</a></div>
+            <div class="footer-leftPart__linkPhone"><a class="footer-leftPart__link" href="tel:+48111111">+48 111 111
+                    111</a></div>
         </div>
-        <div class="container-footer-middle">
-            <h3 class="h3footer">dołącz do nas</h3>
-            <div class="footer-social-media">
-                <ul class="ul-footer-social-media">
-                    <li class="li-social-media"><a class="social-media-link" href="https://www.instagram.com/"
-                            target="_blank" title="istagram">
-                            <div class="link-footer-circle-social-media">
-                                <svg class="icon-social-media">
-                                    <use href="./images/icons.svg#icon-instagram-2"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="li-social-media"><a class="social-media-link" href="https://www.twitter.com/"
-                            target="_blank" title="twitter">
-                            <div class="link-footer-circle-social-media">
-                                <svg class="icon-social-media">
-                                    <use href="./images/icons.svg#icon-twitter-1"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="li-social-media"><a class="social-media-link" href="https://www.facebook.com/"
-                            target="_blank" title="facebook">
-                            <div class="link-footer-circle-social-media">
-                                <svg class="icon-social-media">
-                                    <use href="./images/icons.svg#icon-facebook-1"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="li-social-media"><a class="social-media-link" href="https://pl.linkedin.com/"
-                            target="_blank" title="facebook">
-                            <div class="link-footer-circle-social-media">
-                                <svg class="icon-social-media">
-                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
-                                </svg>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div class="footer-middlePart">
+            <h3 class="footer-middlePart__h3">dołącz do nas</h3>
+            <ul class="ul footer-middlePart__socialMedia">
+                <li><a class="footer-middlePart__socialMediaLink" href="https://www.instagram.com/" target="_blank"
+                        title="istagram">
+                        <div class="footer-middlePart__socialMediaCircle">
+                            <svg class="footer-middlePart__icon">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </li>
+                <li><a class="footer-middlePart__socialMediaLink" href="https://www.twitter.com/" target="_blank"
+                        title="twitter">
+                        <div class="footer-middlePart__socialMediaCircle">
+                            <svg class="footer-middlePart__icon">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </li>
+                <li class="li-social-media"><a class="footer-middlePart__socialMediaLink"
+                        href="https://www.facebook.com/" target="_blank" title="facebook">
+                        <div class="footer-middlePart__socialMediaCircle">
+                            <svg class="footer-middlePart__icon">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </li>
+                <li class="li-social-media"><a class="footer-middlePart__socialMediaLink"
+                        href="https://pl.linkedin.com/" target="_blank" title="facebook">
+                        <div class="footer-middlePart__socialMediaCircle">
+                            <svg class="footer-middlePart__icon">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="container-footer-right">
-            <div class="footer-newsletter" role="group">
-                <div class="newsletter-email">
+        <div class="footer-rightPart">
+            <div class="footer-rightPart__newsletter">
+                <div class="footer-rightPart__newsletterEmail">
                     <form name="newsletter-email">
-                        <label class="footer-label">zapisz się do newslettera</label>
-                        <input class="newsletter-label" type="text" name="newsletter-user-email"
+                        <label class="footer-rightPart__label">zapisz się do newslettera</label>
+                        <input class="footer-rightPart__inputLabel" type="text" name="newsletter-user-email"
                             placeholder="Email" />
-                        <button class="btn-footer-forms" type="submit">Zapisz się
-                            <svg class="icon-footer-form">
+                        <button class="footer-rightPart__btn" type="submit">Zapisz się
+                            <svg class="footer-rightPart__icon">
                                 <use href="./images/icons.svg#icon-send"></use>
                             </svg></button>
                     </form>

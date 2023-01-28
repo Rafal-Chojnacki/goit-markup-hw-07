@@ -21,20 +21,21 @@
 <body>
     <header>
         <div class="header">
-            <div class="header__logo"><a class="header__link" href="index.html" title="WebStudio">
+            <div class="header__logo"><a class="link link--header" href="index.html" title="WebStudio">
                     <span class="logo">Web</span><span class="logo logo--header">Studio</span></a>
                 <nav class="header-nav">
                     <div class="header-nav-subpages">
                         <ul class="ul">
                             <li class="header-nav-subpages__li">
-                                <a class="header__link--active" href="index.html" title="WebStudio">Agencja</a>
+                                <a class="link link--active" href="index.html" title="WebStudio">Agencja</a>
                             </li>
                             <li class="header-nav-subpages__li">
-                                <a class="header__link" href="portfolio.html" title="Portfolio WebStudio">Portfolio</a>
+                                <a class="link link--header" href="portfolio.html"
+                                    title="Portfolio WebStudio">Portfolio</a>
                                 <div class="link-underline"></div>
                             </li>
                             <li class="header-nav-subpages__li">
-                                <a class="header__link" href="kontakt.html" title="Kontakt">Kontakt</a>
+                                <a class="link link--header" href="kontakt.html" title="Kontakt">Kontakt</a>
                                 <div class="link-underline"></div>
                             </li>
                         </ul>
@@ -42,13 +43,13 @@
                     <div class="header-nav-contact">
                         <ul class="ul ul--header-nav-contact">
                             <li class="header-nav-contact__li">
-                                <a class="header__link" href="mailto:info@devstudio.com"><svg
+                                <a class="link link--header" href="mailto:info@devstudio.com"><svg
                                         id="header__icon-envelope">
                                         <use href="./images/icons.svg#icon-envelope"></use>
                                     </svg>info@devstudio.com</a>
                             </li>
                             <li class="header-nav-contact__li">
-                                <a class="header__link" href="tel:+48111111"><svg id="header__icon-smartphone">
+                                <a class="link link--header" href="tel:+48111111"><svg id="header__icon-smartphone">
                                         <use href="./images/icons.svg#icon-smartphone"></use>
                                     </svg>+48 111 111 111</a>
                             </li>
@@ -419,10 +420,11 @@
                         class="logo">Web</span><span class="logo--footer">Studio</span></a>
             </div>
             <address class="footer-leftPart__address">m. Warszawa, Aleje Jerozolimskie 21</address>
-            <div class="footer-leftPart__linkMail"><a class="footer-leftPart__link"
+            <div class="footer-leftPart__linkMail"><a class="link link--footerLeftPart"
                     href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
-            <div class="footer-leftPart__linkPhone"><a class="footer-leftPart__link" href="tel:+48111111">+48 111 111
+            <div class="footer-leftPart__linkPhone"><a class="link link--footerLeftPart" href="tel:+48111111">+48 111
+                    111
                     111</a></div>
         </div>
         <div class="footer-middlePart">
@@ -446,8 +448,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="li-social-media"><a class="footer-middlePart__socialMediaLink" href="https://www.facebook.com/"
-                        target="_blank" title="facebook">
+                <li class="li-social-media"><a class="footer-middlePart__socialMediaLink"
+                        href="https://www.facebook.com/" target="_blank" title="facebook">
                         <div class="footer-middlePart__socialMediaCircle">
                             <svg class="footer-middlePart__icon">
                                 <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -455,8 +457,8 @@
                         </div>
                     </a>
                 </li>
-                <li class="li-social-media"><a class="footer-middlePart__socialMediaLink" href="https://pl.linkedin.com/" target="_blank"
-                        title="facebook">
+                <li class="li-social-media"><a class="footer-middlePart__socialMediaLink"
+                        href="https://pl.linkedin.com/" target="_blank" title="facebook">
                         <div class="footer-middlePart__socialMediaCircle">
                             <svg class="footer-middlePart__icon">
                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -471,7 +473,8 @@
                 <div class="footer-rightPart__newsletterEmail">
                     <form name="newsletter-email">
                         <label class="footer-rightPart__label">zapisz się do newslettera</label>
-                        <input class="footer-rightPart__inputLabel" type="text" name="newsletter-user-email" placeholder="Email" />
+                        <input class="footer-rightPart__inputLabel" type="text" name="newsletter-user-email"
+                            placeholder="Email" />
                         <button class="footer-rightPart__btn" type="submit">Zapisz się
                             <svg class="footer-rightPart__icon">
                                 <use href="./images/icons.svg#icon-send"></use>
@@ -519,12 +522,14 @@
                 <div class="modal-window__form">
                     <label class="modal-window_formLabel">Komentarz</label>
                     <div class="modal-window__comment">
-                        <textarea class="modal-window__commentText" name="comment" placeholder="Wprowadź tekst"></textarea>
+                        <textarea class="modal-window__commentText" name="comment"
+                            placeholder="Wprowadź tekst"></textarea>
                     </div>
                 </div>
                 <div class="modal-window__accept">
                     <input class='modal-window__regulations' type='checkbox' onclick='toggle_submit(this)'>
-                    <label class="modal-window__acceptLabel">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę prywatności</a></label>
+                    <label class="modal-window__acceptLabel">Oświadczam iż akceptuję <a href="">Regulamin</a> i <a
+                            href="">Politykę prywatności</a></label>
                     <button id='modal-window__btnAccept' type='submit' disabled='true'>Wyślij</button>
                 </div>
             </form>
