@@ -54,7 +54,7 @@ img {
 	display: block;
 }
 
-.link-underline {
+.header__linkUnderline {
 	content: '';
 	width: 53px;
 	height: 4px;
@@ -71,8 +71,8 @@ img {
 .link:focus > .logo--header {
 	color: #2196f3;
 }
-.link--header:hover + .link-underline,
-.link--header:focus + .link-underline {
+.link--header:hover + .header__linkUnderline,
+.link--header:focus + .header__linkUnderline {
 	display: block;
 }
 
