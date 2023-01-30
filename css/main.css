@@ -403,7 +403,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   height: 252px;
-  background-color: red;
+  background-color: #2F303A;
   color: white;
   margin-top: 94px;
 }
