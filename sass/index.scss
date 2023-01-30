@@ -590,6 +590,9 @@ img {
 	}
 	&__btnClose:hover {
 		cursor: pointer;
+		background-color: rgb(214, 213, 213);
+		color: #212121;
+		cursor: pointer;
 	}
 	&__iconClose {
 		width: 11px;
@@ -771,19 +774,19 @@ img {
 		flex-wrap: wrap;
 		row-gap: 30px;
 		width: 1170px;
-}
-&__card {
-	line-height: 26px;
+	}
+	&__card {
+		line-height: 26px;
 		width: 370px;
 		height: 404px;
 		border: 1px solid #eeeeee;
-}
-&__photo {
-	width: auto;
-	height: 294px;
-	position: relative;
-	overflow: hidden;
-}
+	}
+	&__photo {
+		width: auto;
+		height: 294px;
+		position: relative;
+		overflow: hidden;
+	}
 }
 .portfolio-nav {
 	display: flex;

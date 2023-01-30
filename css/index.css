@@ -17,7 +17,6 @@ img {
 }
 .section--portfolio {
   padding-top: 50px;
-  margin-left: 215px;
 }
 
 .ul {
@@ -550,7 +549,6 @@ img {
   margin-top: 18px;
   margin-left: 12px;
   font-weight: 700;
-  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: left;
@@ -630,7 +628,8 @@ img {
   margin-left: 490px;
   position: relative;
 }
-.modal-window__btnClose:hover, .modal-window__btnClose:focus {
+.modal-window__btnClose:hover {
+  cursor: pointer;
   background-color: rgb(214, 213, 213);
   color: #212121;
   cursor: pointer;
@@ -835,77 +834,11 @@ img {
   height: 404px;
   border: 1px solid #eeeeee;
 }
-.portfolio__card:hover .portfolio__text {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  cursor: pointer;
-  visibility: visible;
-  overflow: hidden;
-}
-.portfolio__card:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 14px 12px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
-          box-shadow: 14px 12px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
-  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .portfolio__photo {
   width: auto;
   height: 294px;
   position: relative;
   overflow: hidden;
-}
-.portfolio__figure {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.portfolio__text {
-  background: rgba(33, 150, 243, 0.8980392157);
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  margin: 0;
-  padding: 49px 45px 0px 24px;
-  width: 100%;
-  height: 295.333px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  display: block;
-  visibility: hidden;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio__figcaption {
-  width: 370px;
-  padding-left: 24px;
-  margin-top: 14px;
-}
-.portfolio__projectName {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-}
-.portfolio__projectType {
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #757575;
-  padding-top: 4px;
-  padding-bottom: 20px;
 }
 
 .portfolio-nav {
@@ -955,4 +888,95 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio__cards {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 30px;
+  width: 1170px;
+}
+.portfolio__cards__list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 30px;
+  width: 1170px;
+}
+.portfolio__cards__element {
+  line-height: 26px;
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
+.portfolio__cards__photo {
+  width: auto;
+  height: 294px;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio__cards__figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.portfolio__cards__text {
+  background: rgba(33, 150, 243, 0.8980392157);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin: 0;
+  padding: 49px 45px 0px 24px;
+  width: 100%;
+  height: 295.333px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: block;
+  visibility: hidden;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio__cards__element:hover > .portfolio__cards__text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  cursor: pointer;
+  visibility: visible;
+  overflow: hidden;
+}
+.portfolio__cards__element:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 14px 12px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
+          box-shadow: 14px 12px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio__cards__figcapition {
+  width: 370px;
+  padding-left: 24px;
+  margin-top: 14px;
+}
+.portfolio__cards__projectName {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.portfolio__cards__projectType {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+  padding-top: 4px;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=index.css.map */
