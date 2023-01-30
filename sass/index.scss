@@ -165,7 +165,7 @@ img {
 .service-order {
 	height: 600px;
 	background-color: #2f303a;
-	background: linear-gradient(rgb(47, 48, 58, 0.4), rgba(23, 26, 58, 0.4)), url('../images/main-index.jpg', false, true);
+	background-image: linear-gradient(rgb(47, 48, 58, 0.4), rgba(23, 26, 58, 0.4)), url('../images/main-index.jpg');
 	color: white;
 
 	&__h1 {
