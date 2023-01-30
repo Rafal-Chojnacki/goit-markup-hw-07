@@ -1,0 +1,41 @@
+.portfolio-nav {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 295px;
+
+	&__subpages {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__subpage {
+		height: 38px;
+		font-size: 14px;
+		letter-spacing: 0.03em;
+		margin: 4px;
+		float: left;
+	}
+
+	&__btn {
+		font-weight: 700;
+		font-size: 16px;
+		border: none;
+		background-color: #f5f4fa;
+		color: #212121;
+		height: 38px;
+		width: auto;
+		padding: 6px 22px;
+	}
+	&__btn:hover,
+	&__btn:focus {
+		background-color: #2196f3;
+		color: #ffffff;
+		cursor: pointer;
+		box-shadow: -12px -12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+			box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+}

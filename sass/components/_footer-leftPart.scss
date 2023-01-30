@@ -1,0 +1,28 @@
+.footer-leftPart {
+	width: 246px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 60px;
+	margin-left: 215px;
+
+	&__address {
+		font-style: normal;
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: 0.03em;
+		margin-top: 11px;
+	}
+	&__linkMail {
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: 0.03em;
+		padding-top: 9px;
+	}
+	&__linkPhone {
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: 0.03em;
+		padding-top: 9px;
+	}
+}

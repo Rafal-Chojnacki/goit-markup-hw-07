@@ -1,0 +1,26 @@
+.header {
+	width: 1600px;
+	margin-right: 0px;
+
+	&--portfolio {
+		border-bottom: 1px solid #ececec;
+	}
+	&__logo {
+		margin-left: 215px;
+		padding: 25px 0px;
+	}
+
+	&__linkUnderline {
+		content: '';
+		width: 53px;
+		height: 4px;
+		background-color: #2196f3;
+		position: absolute;
+		top: 44px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		display: none;
+	}
+}

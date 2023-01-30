@@ -1,0 +1,43 @@
+.description {
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+
+	&__rectangle {
+		width: 270px;
+		height: 120px;
+		background: #f5f4fa;
+		border-radius: 4px;
+		margin-bottom: 30px;
+		margin-right: 0;
+		position: relative;
+	}
+	&__icons {
+		display: block;
+		height: 50%;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+	}
+	&__h3 {
+		margin: 0px;
+		font-size: 14px;
+		font-weight: 700;
+		text-align: left;
+		letter-spacing: 0.03em;
+	}
+	&__text {
+		font-size: 14px;
+		color: #757575;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		line-height: 24px;
+		letter-spacing: 0.03em;
+		text-align: left;
+	}
+}
