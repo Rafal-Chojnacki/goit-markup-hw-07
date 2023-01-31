@@ -41,7 +41,6 @@
 		padding-top: 2px;
 		padding-left: 40px;
 		padding-right: 40px;
-		width: 528px;
 		height: auto;
 	}
 	&__h3 {
@@ -56,6 +55,7 @@
 	&__form {
 		padding-top: 10px;
 		position: relative;
+		border: 0px solid
 	}
 	&_formLabel {
 		margin-top: 10px;
@@ -90,7 +90,6 @@
 		padding-top: 2px;
 		left: 42px;
 		border: none;
-		position: absolute;
 	}
 	&__icon {
 		fill: #212121;

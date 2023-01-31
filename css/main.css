@@ -455,7 +455,7 @@ ul {
   margin-top: 94px;
 }
 
-.footer-leftPart {
+.footer-left-part {
   width: 246px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -470,27 +470,27 @@ ul {
   padding-top: 60px;
   margin-left: 215px;
 }
-.footer-leftPart__address {
+.footer-left-part__address {
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   margin-top: 11px;
 }
-.footer-leftPart__linkMail {
+.footer-left-part__linkMail {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   padding-top: 9px;
 }
-.footer-leftPart__linkPhone {
+.footer-left-part__linkPhone {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   padding-top: 9px;
 }
 
-.footer-middlePart {
+.footer-middle-part {
   width: 206px;
   margin-left: 70px;
   display: -webkit-box;
@@ -505,18 +505,18 @@ ul {
           align-items: flex-start;
   padding-top: 58px;
 }
-.footer-middlePart__h3 {
+.footer-middle-part__h3 {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
 }
-.footer-middlePart__socialMedia {
+.footer-middle-part__socialMedia {
   width: 206px;
   margin: 0;
 }
-.footer-middlePart__socialMediaCircle {
+.footer-middle-part__socialMediaCircle {
   fill: #ffffff;
   width: 44px;
   height: 44px;
@@ -524,27 +524,27 @@ ul {
   position: relative;
   background: rgba(255, 255, 255, 0.1019607843);
 }
-.footer-middlePart__socialMediaCircle:hover, .footer-middlePart__socialMediaCircle:focus {
+.footer-middle-part__socialMediaCircle:hover, .footer-middle-part__socialMediaCircle:focus {
   background-color: #2196f3;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-middlePart__socialMediaCircle:hover > svg, .footer-middlePart__socialMediaCircle:focus > svg {
+.footer-middle-part__socialMediaCircle:hover > svg, .footer-middle-part__socialMediaCircle:focus > svg {
   fill: #ffffff;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-middlePart__socialMediaLink:hover > .footer-middlePart__socialMediaCircle, .footer-middlePart__socialMediaLink:focus > .footer-middlePart__socialMediaCircle {
+.footer-middle-part__socialMediaLink:hover > .footer-middle-part__socialMediaCircle, .footer-middle-part__socialMediaLink:focus > .footer-middle-part__socialMediaCircle {
   background-color: #2196f3;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-middlePart__socialMediaLink:hover > .footer-middlePart__socialMediaCircle > svg, .footer-middlePart__socialMediaLink:focus > .footer-middlePart__socialMediaCircle > svg {
+.footer-middle-part__socialMediaLink:hover > .footer-middle-part__socialMediaCircle > svg, .footer-middle-part__socialMediaLink:focus > .footer-middle-part__socialMediaCircle > svg {
   fill: #ffffff;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-middlePart__icon {
+.footer-middle-part__icon {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -555,7 +555,7 @@ ul {
   margin: auto;
 }
 
-.footer-rightPart {
+.footer-right-part {
   width: 570px;
   margin-left: 78px;
   padding-top: 72px;
@@ -563,14 +563,14 @@ ul {
   display: -ms-flexbox;
   display: flex;
 }
-.footer-rightPart__newsletter {
+.footer-right-part__newsletter {
   height: 86px;
   width: 358px;
 }
-.footer-rightPart__newsletterEmail {
+.footer-right-part__newsletterEmail {
   width: 350px;
 }
-.footer-rightPart__label {
+.footer-right-part__label {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -579,7 +579,7 @@ ul {
   text-align: left;
   position: relative;
 }
-.footer-rightPart__inputLabel {
+.footer-right-part__inputLabel {
   margin-top: 18px;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3019607843);
@@ -588,7 +588,7 @@ ul {
   padding: 14px 0 14px 16px;
   font-size: 16px;
 }
-.footer-rightPart__btn {
+.footer-right-part__btn {
   height: 50px;
   width: 200px;
   padding-top: 10px;
@@ -607,7 +607,7 @@ ul {
   background: #ffffff;
   position: absolute;
 }
-.footer-rightPart__btn:hover, .footer-rightPart__btn:focus {
+.footer-right-part__btn:hover, .footer-right-part__btn:focus {
   color: #ffffff;
   border-color: #2196f3;
   background: #2196f3;
@@ -617,12 +617,17 @@ ul {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shado 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shado 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-rightPart__btn:hover > svg, .footer-rightPart__btn:focus > svg {
+.footer-right-part__btn > svg, .footer-right-part__btn > svg {
+  fill: #212121;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-right-part__btn:hover > svg, .footer-right-part__btn:focus > svg {
   fill: #ffffff;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-rightPart__icon {
+.footer-right-part__icon {
   position: absolute;
   top: 13px;
   margin-left: 24px;
@@ -692,7 +697,6 @@ ul {
   padding-top: 2px;
   padding-left: 40px;
   padding-right: 40px;
-  width: 528px;
   height: auto;
 }
 .modal-window__h3 {
@@ -707,6 +711,7 @@ ul {
 .modal-window__form {
   padding-top: 10px;
   position: relative;
+  border: 0px solid;
 }
 .modal-window_formLabel {
   margin-top: 10px;
@@ -738,7 +743,6 @@ ul {
   padding-top: 2px;
   left: 42px;
   border: none;
-  position: absolute;
 }
 .modal-window__icon {
   fill: #212121;

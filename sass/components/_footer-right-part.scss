@@ -1,4 +1,4 @@
-.footer-rightPart {
+.footer-right-part {
 	width: 570px;
 	margin-left: 78px;
 	padding-top: 72px;
@@ -56,12 +56,17 @@
 		background: $mainBlueColor;
 		box-shadow: 0px 4px 4px 0px $boxShaddow;
 		cursor: pointer;
-		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-			box-shado 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shado 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
+	&__btn > svg,
+	&__btn > svg {
+		fill: $footerRightPartIconFill;
+		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
 	&__btn:hover > svg,
 	&__btn:focus > svg {
-		fill: $footerRightPartIconFill;
+		fill: $footerRightPartIconHoverFill;
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	&__icon {

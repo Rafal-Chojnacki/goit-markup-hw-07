@@ -32,7 +32,7 @@
 	&__btn:hover,
 	&__btn:focus {
 		background-color: $mainBlueColor;
-		color: $footerRightPartBtnHoverColor;
+		color: $BtnHoverColor;
 		cursor: pointer;
 		box-shadow: -12px -12px 6px 0px $boxShaddow, 0px 4px 4px 0px $boxShaddow, 0px 1px 1px 0px $boxShaddow;
 		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
