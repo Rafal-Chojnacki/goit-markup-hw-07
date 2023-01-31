@@ -53,9 +53,10 @@
 		color: #212121;
 	}
 	&__form {
+		width: 448px;
 		padding-top: 10px;
 		position: relative;
-		border: 0px solid
+		border: 0px solid;
 	}
 	&_formLabel {
 		margin-top: 10px;
@@ -85,11 +86,13 @@
 	}
 
 	&__input {
-		width: 400px;
-		height: 36px;
+		outline: none;
+		border: none;
+		width: 416px;
+		padding-left: 30px;
+		height: 35px;
 		padding-top: 2px;
 		left: 42px;
-		border: none;
 	}
 	&__icon {
 		fill: #212121;
@@ -126,6 +129,7 @@
 		color: $mainBlueColor;
 	}
 	&__commentText {
+		outline: none;
 		margin-top: 1px;
 		margin-left: 16px;
 		width: 416px;
