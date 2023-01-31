@@ -3,7 +3,7 @@
 
 	&:hover,
 	&:focus {
-		color: #2196f3;
+		color: $mainBlueColor;
 		cursor: pointer;
 		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
@@ -11,14 +11,14 @@
 		color: black;
 	}
 	&--active {
-		color: #2196f3;
+		color: $mainBlueColor;
 		text-decoration: none;
 	}
 	&--active::after {
 		content: '';
 		width: 53px;
 		height: 4px;
-		background-color: #2196f3;
+		background-color: $mainBlueColor;
 		position: absolute;
 		top: 44px;
 		right: 0;
@@ -29,12 +29,12 @@
 	}
 	&:hover > .logo--header,
 	&focus > .logo--header {
-		color: #2196f3;
+		color: $mainBlueColor;
 	}
 
 	&--header:hover > svg,
 	&--header:focus > svg {
-		fill: #2196f3;
+		fill: $mainBlueColor;
 	}
 	&--header:focus + &__linkUnderline {
 		display: block;
@@ -44,7 +44,7 @@
 		display: block;
 	}
 	&:hover > .logo--footer {
-		color: #2196f3;
+		color: $mainBlueColor;
 	}
 	&--footerLeftPart {
 		color: #ffffff;

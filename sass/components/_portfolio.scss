@@ -12,7 +12,7 @@
 		line-height: 26px;
 		width: 370px;
 		height: 404px;
-		border: 1px solid #eeeeee;
+		border: 1px solid $portfolioCardBorder;
 	}
 	&__card:hover &__text {
 		transform: translateY(0);
@@ -22,7 +22,7 @@
 	}
 	&__card:hover {
 		cursor: pointer;
-		box-shadow: 14px 12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
+		box-shadow: 14px 12px 6px 0px $boxShaddow, 0px 4px 4px 0px $boxShaddow, 0px 1px 1px 0px $boxShaddow;
 		transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
@@ -39,8 +39,8 @@
 		overflow: hidden;
 	}
 	&__text {
-		background: #2196f3e5;
-		color: #ffffff;
+		background: $mainBlueColor;
+		color: $portfolioTextColor;
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 28px;
@@ -64,6 +64,7 @@
 		margin-top: 14px;
 	}
 	&__projectName {
+		color: $portflioProjectNameColor;
 		font-size: 18px;
 		font-weight: 700;
 		line-height: 36px;
@@ -74,8 +75,7 @@
 		line-height: 30px;
 		letter-spacing: 0.03em;
 		text-align: left;
-		color: #757575
-;
+		color: $portflioProjectTypeColor;
 		padding-top: 4px;
 		padding-bottom: 20px;
 	}

@@ -1,7 +1,7 @@
 .footer {
 	display: flex;
 	height: 252px;
-	background-color: #2f303a;
-	color: #ffffff;
+	background-color: $footerBackground;
+	color: $footerIconFillColor;
 	margin-top: 94px;
 }

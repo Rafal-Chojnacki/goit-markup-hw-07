@@ -23,18 +23,18 @@
 		font-weight: 700;
 		font-size: 16px;
 		border: none;
-		background-color: #f5f4fa;
-		color: #212121;
+		background-color: $btnBackgrounColor;
+		color: $btnColor;
 		height: 38px;
 		width: auto;
 		padding: 6px 22px;
 	}
 	&__btn:hover,
 	&__btn:focus {
-		background-color: #2196f3;
-		color: #ffffff;
+		background-color: $mainBlueColor;
+		color: $footerRightPartBtnHoverColor;
 		cursor: pointer;
-		box-shadow: -12px -12px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
+		box-shadow: -12px -12px 6px 0px $boxShaddow, 0px 4px 4px 0px $boxShaddow, 0px 1px 1px 0px $boxShaddow;
 		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 			box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}

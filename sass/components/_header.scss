@@ -3,7 +3,7 @@
 	margin-right: 0px;
 
 	&--portfolio {
-		border-bottom: 1px solid #ececec;
+		border-bottom: 1px solid $headerPortfolioBorderColor;
 	}
 	&__logo {
 		margin-left: 215px;
@@ -14,7 +14,7 @@
 		content: '';
 		width: 53px;
 		height: 4px;
-		background-color: #2196f3;
+		background-color: $mainBlueColor;
 		position: absolute;
 		top: 44px;
 		right: 0;

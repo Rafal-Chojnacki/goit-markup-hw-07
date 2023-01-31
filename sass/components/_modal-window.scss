@@ -77,11 +77,11 @@
 		width: 448px;
 		height: 40px;
 		position: relative;
-		border: 1px solid #2196f3;
+		border: 1px solid $mainBlueColor;
 	}
 	&__formIcon:hover > svg,
 	&__formIcon:focus > svg {
-		fill: #2196f3;
+		fill: $mainBlueColor;
 	}
 
 	&__input {
@@ -121,10 +121,10 @@
 		border: 1px solid #21212133;
 	}
 	&__comment:hover {
-		border: 1px solid #2196f3;
+		border: 1px solid $mainBlueColor;
 	}
 	&__comment:hover > &__commentText::placeholder {
-		color: #2196f3;
+		color: $mainBlueColor;
 	}
 	&__commentText {
 		margin-top: 1px;
@@ -157,10 +157,10 @@
 		font-size: 14px;
 		line-height: 24px;
 		letter-spacing: 0.03em;
-		color: #757575;
+		color: $modalWindowAcceptLabelColor;
 	}
 	&__acceptLabel > a {
 		text-decoration: none;
-		color: #2196f3;
+		color: $mainBlueColor;
 	}
 }

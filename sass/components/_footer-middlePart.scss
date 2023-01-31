@@ -18,31 +18,31 @@
 		margin: 0;
 	}
 	&__socialMediaCircle {
-		fill: #afb1b8;
+		fill: $footerIconFillColor;
 		width: 44px;
 		height: 44px;
 		border-radius: 50%;
 		position: relative;
-		background: #ffffff1a;
+		background: $footerSocialMediaBackground;
 	}
 	&__socialMediaCircle:hover,
 	&__socialMediaCircle:focus {
-		background-color: #2196f3;
+		background-color: $mainBlueColor;
 		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	&__socialMediaCircle:hover > svg,
 	&__socialMediaCircle:focus > svg {
-		fill: #ffffff;
+		fill: $footerIconFillColor;
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	&__socialMediaLink:hover > &__socialMediaCircle,
 	&__socialMediaLink:focus > &__socialMediaCircle {
-		background-color: #2196f3;
+		background-color: $mainBlueColor;
 		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	&__socialMediaLink:hover > &__socialMediaCircle > svg,
 	&__socialMediaLink:focus > &__socialMediaCircle > svg {
-		fill: #ffffff;
+		fill: $footerIconFillColor;
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	&__icon {

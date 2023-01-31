@@ -23,10 +23,10 @@ img {
 	margin: 0;
 	width: 200px;
 	height: 50px;
-	background-color: #2196F3;
+	background-color: $mainBlueColor;
 	opacity: 0.5;
 	color: #fff;
-	border: 1px solid #2196F3;
+	border: 1px solid $mainBlueColor;
 	border-radius: 4px;
 	font-size: 16px;
 	font-weight: 700;
@@ -42,9 +42,9 @@ img {
 	margin: 0;
 	width: 200px;
 	height: 50px;
-	background-color: #2196F3;
+	background-color: $mainBlueColor;
 	color: #fff;
-	border: 1px solid #2196F3;
+	border: 1px solid $mainBlueColor;
 	border-radius: 4px;
 	font-size: 16px;
 	font-weight: 700;
